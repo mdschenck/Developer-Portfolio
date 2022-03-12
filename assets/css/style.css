@@ -31,7 +31,7 @@ header {
 
 header h1 {
   display: inline-block;
-  font-size: 48px;
+  font-size: 40px;
 }
 
 header h1 .sch {
@@ -59,7 +59,7 @@ header nav ul li {
 /* Main Banner Image Styling */
 
 .hero {
-  height: 800px;
+  height: 150px;
   width: 100%;
   margin-bottom: 25px;
   background-image: url("../images/portfoliobanner.jpg");
@@ -83,6 +83,11 @@ aside {
 .contactme-blocks {
   margin-bottom: 32px;
   color: #ffffff;
+}
+
+.contactme-blocks h2 {
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .contactme-blocks h3 {
