@@ -127,6 +127,10 @@ header nav ul li {
   font-size: 36px;
 }
 
+.content-blocks:hover {
+  box-shadow: 5px 5px #976b9c;
+}
+
 .content-blockmain {
   margin-bottom: 10px;
   padding: 20px;
@@ -145,6 +149,10 @@ header nav ul li {
   font-size: 36px;
 }
 
+.content-blockmain:hover {
+  box-shadow: 5px 5px #976b9c;
+}
+
 /* Sidebar styling */
 
 aside {
@@ -156,6 +164,10 @@ aside {
   height: 100%;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #15967c;
+}
+
+aside:hover {
+  box-shadow: 5px 5px #976b9c;
 }
 
 .contactme-blocks {
@@ -170,6 +182,10 @@ aside {
 
 .contactme-blocks h3 {
   margin-bottom: 10px;
+  text-align: center;
+}
+
+.contactme-blocks p {
   text-align: center;
 }
 
