@@ -5,6 +5,7 @@
 This portfolio is intented to provide prospective employers with a easy-to-navigate demonstration of my web development and design skills through my history of deployed projects.
 
 Link to deployed web application:
+https://mdschenck.github.io/Developer-Portfolio/
 
 The USER STORY for this project is as follows:
 -AS A employer,
@@ -17,7 +18,11 @@ Given this user story, I strove to provide examples of my web development and de
 
 This is a basic web application that functions to give information about my web development and design portfolio, and give prospective employers insight into my development and design skills. It can be accessed via any modern and legacy web browser.
 
-Link to completed project:This project meets the acceptance criteria of:
+Link to completed project:
+
+https://mdschenck.github.io/Developer-Portfolio/
+
+This project meets the acceptance criteria of:
 When a user loads the portfolio, the user is presented with the developer's name, a recent photo, and links to sections about them and their work.
 When a link is clicked in the navigation bar, the UI scrolls to the corresponding section of the site.
 When the user is presented with the first application, the image is larger than that of the rest on the page.
@@ -30,7 +35,7 @@ Site screengrab to demonstrate visible appearance of the deployed web applicatio
 
 ## Web design sites info:
 
-TurnipTruckGA.com - Deployed 2015 to 2020. Magento Implementation partner- ExpandLabs, Atlanta, GA. Hosting - Nexcess. Card Processing - Auth.net.
+TurnipTruckGA.com - Deployed 2015 to 2020. Magento Implementation partner - ExpandLabs, Atlanta, GA. Hosting - Nexcess. Card Processing - Auth.net.
 
 MixedByMichael.com - Deployed 2016 to 2021, Platform & Hosting: WIX.com. GoDaddy - DNS Hosting. Payment processing - PayPal.
 
@@ -38,9 +43,11 @@ TwoTwelveRecorders.com - Deployed 2014 to 2021, Platform & Hosting: WIX.com. GoD
 
 ## Attribution:
 
-Hero Banner & Footer Artwork: Nam June Paik (Photo still taken by me in early 2000s), Smithsonian American Art Museum, Washington, DC.
+Hero Banner & Footer Artwork:
+Nam June Paik (Photo still taken by me in early 2000s), Smithsonian American Art Museum, Washington, DC.
 
 Clip Art sourced from www.flyclipart.com, specifically:
+
 https://flyclipart.com/download-png#github-png-transparent-github-images-813531.png
 
 https://flyclipart.com/download-png#white-email-icon-466284.png
