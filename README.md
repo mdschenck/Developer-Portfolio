@@ -2,31 +2,27 @@
 
 ## Description
 
-This excercise is intended to follow the journey of a support ticket placed by a marketing agency to make their existing website more accessible through refactoring the code to include proper semantic elements, comments, and alt image text.
+This portfolio is intented to provide prospective employers with a easy-to-navigate demonstration of my web development and design skills through my history of deployed projects.
+
+Link to deployed web application:
 
 The USER STORY for this project is as follows:
--AS A marketing agency,
--I WANT a codebase that follows accessibility standards
--SO THAT our own site is optimized for search engines.
+-AS A employer,
+-I WANT to view a potential employee's deployed portfolio of work samples
+-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position.
 
-Given this user story, this project took their existing codebase and refactored the code to remove multiple non-descriptive DIV elements and replace them with the proper semantic elements like HEADER, NAV, MAIN, ASIDE, and FOOTER.
-Multiple redundant CSS elements were also combined and reorganized to facilitate better understanding of the site styling.
-
-In the Html document, fixed one link that was not working due to a missing ID tag, verified proper function of the other two links. Also created ALT image text for all images to increase accessibility. To create the alt image for the main hero banner image, a SPAN was created with a role of IMG and a aria-label describing the image. Since this image does not contain any information not necessary to the understanding of the site, it is acceptable to have the image in the CSS without ALT text, but I felt it would be nice to be able to describe the image to a visitor using a screen-reader.
+Given this user story, I strove to provide examples of my web development and design work, past and present. Over the last 10 years, I have deployed multiple web applications ranging from static web sites to functional business websites with music players and embedded social feeds and payment, all the way up to fully featured ecommerce sites on Magento and WIX platforms that provided functionality sufficient to run a business and capture all payments, process orders, etc. Through my work in the Georgia Tech Full Stack Web Development Bootcamp, I hope to fill this portfolio with intriguing, functional web applications over the next six months, focusing on my currrent work in ecommerce fulfillment and integrating web applications with our current Magento 2.0, AS4000, and Enterworks MANTIS PIM platforms.
 
 ## Useage
 
 This is a basic web application that functions to give information about my web development and design portfolio, and give prospective employers insight into my development and design skills. It can be accessed via any modern and legacy web browser.
 
-Link to completed project:
-
-This project meets all points of the Acceptance Criteria below:
-
-1. Source code contains semantic HTML elements.
-2. Source code elements follow a logical structure independent of styling and positioning.
-3. Each image and icon has accessible ALT attributes.
-4. The heading attributes fall in sequential order.
-5. A consise, descriptive title has been added to the site.
+Link to completed project:This project meets the acceptance criteria of:
+When a user loads the portfolio, the user is presented with the developer's name, a recent photo, and links to sections about them and their work.
+When a link is clicked in the navigation bar, the UI scrolls to the corresponding section of the site.
+When the user is presented with the first application, the image is larger than that of the rest on the page.
+When the user clicks on the image of the application, the browser opens a link to that application.
+When the user resizes the page or views on a different device, they are presented with a responsive layout that adapts to the size of their viewport.
 
 Site screengrab to demonstrate visible appearance of the deployed web application:
 

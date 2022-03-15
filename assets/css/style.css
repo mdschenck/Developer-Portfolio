@@ -109,6 +109,24 @@ header nav ul li {
   width: 100%;
 }
 
+.aboutMe-block {
+  margin-bottom: 10px;
+  padding: 20px;
+  min-height: 250px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #15967c;
+  color: #ffffff;
+}
+
+.aboutMe-block img {
+  max-height: 200px;
+}
+
+.aboutMe-block h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
 .content-blocks {
   margin-bottom: 10px;
   padding: 20px;
