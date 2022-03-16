@@ -33,7 +33,7 @@ This project meets the acceptance criteria of:
 
 Site screengrab to demonstrate visible appearance of the deployed web application:
 
-![Screenshot showing deployed website](assets/Images/PortfolioScreenshot.jpg)
+![Screenshot showing deployed website](assets/Images/PortfolioScreenshot.JPG)
 
 ## Web design sites info:
 
