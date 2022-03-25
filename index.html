@@ -17,10 +17,10 @@
           <a href="#aboutme" class="navLink">About Me</a>
         </li>
         <li>
-          <a href="#development" class="navLink">Development Projects</a>
+          <a href="#work" class="navLink">Development</a>
         </li>
         <li>
-          <a href="#design" class="navLink">Design Projects</a>
+          <a href="#contact" class="navLink">Contact</a>
         </li>
       </ul>
     </nav>
@@ -48,24 +48,24 @@
               class="float-left"
               alt="Image of Michael Schenck headshot"
             />
-            <h2>About Me</h2>
             <p>
               Hi, thanks very much for visiting my page. I am a web development
               student and designer based in Atlanta, Georgia currently working
               in specialty food ecommerce Digital Merchandising. I started
-              building web pages back in the infancy of the world wide web in
-              1997, designing a page for a music project I was involved with.
+              building web pages back in 1997, designing a page for a music project I was involved with.
               Over the years, I've built sites for many businesses I've been
               involved in, including multiple specialty food retailers,
               recording studios, and record labels. I am currently a student in
               the Georgia Tech Full Stack Web Development Bootcamp, and am
               excited to share some of my projects here.
             </p>
+            <aside class="leftAside"  class="column"><h2>About Me</h2></aside>
           </div>
 
-          <!-- Web Development Projects -->
+          <!-- FEATURED PRODUCT SECTION -->
 
-          <div id="development" class="content-blockmain">
+          <div id="work" class="content-blocks">
+            <container class="projectContainer">
             <a href="https://github.com/mdschenck" target="top">
               <img
                 src="./assets/Images/devproject1.jpg"
@@ -77,32 +77,21 @@
                 >Development Project 1</a
               >
             </h2>
-            <p>
-              This is a placeholder for a development project that will be
-              coming soon. I hope to develop multiple engaging and interesting
-              projects to demonstrate the skills I am learning in the Full Stack
-              Web Development Bootcamp.
-            </p>
+            <aside class="leftAside" class="column"><h2>Work</h2></aside>
+          </container>
           </div>
 
-          <!-- <div class="content-blocks">
-            <img
-              src="./assets/images/devproject2.jpg"
-              class="float-left"
-              alt="Image of dev project2"
-            />
-            <h2>Development Project 2</h2>
-            <p>Text about development project 2</p>
-          </div> -->
-
-          <div class="content-blocks">
+          <!-- MAIN PROJECTS SECTION -->
+          <div>  
+            <div class="content-blocks">
+            <container class="projectContainer">
             <a
               href="https://mdschenck.github.io/01-Html-Css_Homework-Demo/"
               target="top"
             >
               <img
                 src="./assets/Images/coderefactoring.jpg"
-                class="float-right"
+                class="float-left"
                 alt="Image of Code Refactoring Project"
             /></a>
             <h2>
@@ -113,134 +102,92 @@
               >
             </h2>
             <p>
-              In this Code Refactoring Project, I was tasked with implementing
-              semantic code elements for a business web site to optimize the
-              user experience for guests using screen readers and provide best
-              in class accessibility. Care was taken to maintain the look and
-              feel of the current site as well as maintaining the proper user
-              experience and interface. Both HTML and CSS elements were
-              refactored and streamlined to make the code as dry and
-              comprehensible.
+              Code Refresh For Accessibility
             </p>
-          </div>
-
-          <!-- Web Design Projects -->
-
-          <div id="design" class="content-blocks">
+          </container>          
+            <container class="projectContainer">
             <img
               src="./assets/Images/turniptruckofga.jpg"
-              class="float-left"
+              class="float-right"
               alt="Image of Turnip Truck Website"
             />
             <h2>Turnip Truck of Georgia</h2>
             <p>
-              Designed and maintained full featured Magento v1 ecommerce site
-              for Atlanta based local food company The Turnip Truck of GA.
-              Design stage included: wireframe, page heirarchy, color scheme,
-              all images including content images and over 1000 product images.
-              Also designed main product category taxonomy and heirarchy for
-              over 2500 individual SKUs. Maintained site content and operation
-              including Magento back end admin super user from 2015 - 2020.
+              Ecommerce Website
             </p>
+          </container>
+          <aside class="leftAside" class="column">
+            <h2></h2>
+            </aside>
           </div>
+          
           <div class="content-blocks">
+            <container class="projectContainer">
             <img
               src="./assets/Images/mixedbymichael.jpg"
-              class="float-right"
+              class="float-left"
               alt="Image of Mixed By Michael Website"
             />
             <h2>Mixed by Michael</h2>
             <p>
-              Designed and deployed business website for audio mix engineer
-              Mixed by Michael on Wix platform. Features included: multiple
-              pages for different business services, embedded music player with
-              current work examples in differnt genres, embedded videos and
-              social media feed, contact forms, and embedded Paypal payments for
-              mix services.
+              Business Website 
             </p>
-          </div>
-          <div class="content-blocks">
+          </container>
+          <container class="projectContainer">
             <img
               src="./assets/Images/twotwelverecorders.jpg"
-              class="float-left"
+              class="float-right"
               alt="Image of Two Twelve Recorders Website"
             />
             <h2>Two Twelve Recorders</h2>
             <p>
-              Designed and deployed business website for Atlanta recording
-              studio Two Twelve Recorders. Features included: multiple pages for
-              different business services, embedded music player with current
-              client work examples, contact forms, calendar displaying open
-              scheduling blocks and embedded Paypal payments for studio time.
+              Business Website
             </p>
+          </container class="projectContainer">
           </div>
+          <aside class="leftAside"  class="column">
+            
+          </aside>  
+        </div>
         </div>
 
-        <!-- Sidebar - Contact Me -->
-        <aside>
-          <div class="contactme-blocks">
-            <h2>Contact Info:</h2>
-          </div>
-          <div class="contactme-blocks">
-            <h3>Email</h3>
-            <a href="mailto:mdschenck@gmail.com">
-              <img src="./assets/Images/email2.png" alt="Image of email icon"
-            /></a>
-            <p>
-              To reach me directly, please send an email to:
+        <!-- CONTACT SECTION -->
+       
+          <div id="contact">
+            <aside class="leftAside">
+            <h2>Contact Me:</h2>
+          </aside>  
+         
+         <h3>
+          <ul class="contact-nav">
+            <li>
               <a href="mailto:mdschenck@gmail.com">mdschenck@gmail.com</a>
-            </p>
-          </div>
-          <div class="contactme-blocks">
-            <h3>LinkedIn</h3>
-            <a
-              href="https://www.linkedin.com/in/michael-schenck-0026b3120"
-              target="top"
-            >
-              <img
-                src="./assets/Images/linkedin2.png"
-                alt="Image of LinkedIn
-            icon"
-            /></a>
-            <p>
-              You can also reach me via my LinkedIn profile
+            </li>
+            <li>
               <a
                 href="https://www.linkedin.com/in/michael-schenck-0026b3120"
                 target="top"
-                >here.</a
+                >Linkedin</a
               >
-            </p>
-          </div>
-          <div class="contactme-blocks">
-            <h3>GitHub</h3>
-            <a href="https://www.github.com/mdschenck" target="top">
-              <img
-                src="./assets/Images/github2.png"
-                alt="Image of GitHub Logo Icon"
-            /></a>
-            <p>
-              To view my projects and repositories, visit my GitHub page at
+            </li>
+            <li>
               <a href="https://www.github.com/mdschenck" target="top"
-                >github.com/mdschenck</a
+                >GitHub</a
               >
-            </p>
-          </div>
-          <div class="contactme-blocks">
-            <h3>Resume</h3>
-            <a href="./assets/files/MichaelSchenck-Resume2022.pdf" target="top">
-              <img src="./assets/Images/resume2.png" alt="Image of Resume Icon"
-            /></a>
-            <p>
-              To view my work experience and credentials, you can download my
-              resume
+            </li>
+            <li>
               <a
                 href="./assets/files/MichaelSchenck-Resume2022.pdf"
                 target="top"
-                >here.</a
+                >Resume</a
               >
-            </p>
+            </li>
+          </ul>
+
+            </h3>
+
           </div>
-        </aside>
+        
       </section>
     </main>
 
