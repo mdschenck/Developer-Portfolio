@@ -41,8 +41,11 @@
         </div>
 
         <!-- About Me Info -->
-        <div class="content">
-          <div id="aboutme" class="aboutMe-block">
+        <div id="mainContent">
+
+          <div id="aboutme" >
+            <aside class="leftAside" ><h2>About Me</h2></aside>
+            <div class="right" class="aboutMe-block">
             <img
               src="./assets/Images/ms-headshot.jpg"
               class="float-left"
@@ -59,12 +62,17 @@
               the Georgia Tech Full Stack Web Development Bootcamp, and am
               excited to share some of my projects here.
             </p>
-            <aside class="leftAside"  class="column"><h2>About Me</h2></aside>
           </div>
+          </div>
+
+
+         
 
           <!-- FEATURED PRODUCT SECTION -->
 
-          <div id="work" class="content-blocks">
+          <div id="work">
+            <aside class="leftAside"><h2>Work</h2></aside>
+            <div class="right" class="aboutMe-block">
             <container class="projectContainer">
             <a href="https://github.com/mdschenck" target="top">
               <img
@@ -77,13 +85,19 @@
                 >Development Project 1</a
               >
             </h2>
-            <aside class="leftAside" class="column"><h2>Work</h2></aside>
-          </container>
+            <p>Placeholder </p>
+            </container>
+            </div>
+            
+
           </div>
 
           <!-- MAIN PROJECTS SECTION -->
           <div>  
-            <div class="content-blocks">
+            <aside class="leftAside" >
+              <h2></h2>
+              </aside>
+            <div class="aboutMe-block" class="right">
             <container class="projectContainer">
             <a
               href="https://mdschenck.github.io/01-Html-Css_Homework-Demo/"
@@ -91,7 +105,6 @@
             >
               <img
                 src="./assets/Images/coderefactoring.jpg"
-                class="float-left"
                 alt="Image of Code Refactoring Project"
             /></a>
             <h2>
@@ -104,52 +117,43 @@
             <p>
               Code Refresh For Accessibility
             </p>
-          </container>          
+            </container>          
             <container class="projectContainer">
             <img
               src="./assets/Images/turniptruckofga.jpg"
-              class="float-right"
               alt="Image of Turnip Truck Website"
             />
             <h2>Turnip Truck of Georgia</h2>
             <p>
               Ecommerce Website
             </p>
-          </container>
-          <aside class="leftAside" class="column">
-            <h2></h2>
-            </aside>
-          </div>
+           </container>
+            </div>
+
           
-          <div class="content-blocks">
+            <div class="aboutMe-block">
             <container class="projectContainer">
             <img
               src="./assets/Images/mixedbymichael.jpg"
-              class="float-left"
               alt="Image of Mixed By Michael Website"
             />
             <h2>Mixed by Michael</h2>
             <p>
               Business Website 
             </p>
-          </container>
-          <container class="projectContainer">
+            </container>
+            <container class="projectContainer">
             <img
               src="./assets/Images/twotwelverecorders.jpg"
-              class="float-right"
               alt="Image of Two Twelve Recorders Website"
             />
             <h2>Two Twelve Recorders</h2>
             <p>
               Business Website
             </p>
-          </container class="projectContainer">
+            </container class="projectContainer">
+            </div>
           </div>
-          <aside class="leftAside"  class="column">
-            
-          </aside>  
-        </div>
-        </div>
 
         <!-- CONTACT SECTION -->
        
@@ -157,7 +161,7 @@
             <aside class="leftAside">
             <h2>Contact Me:</h2>
           </aside>  
-         
+         <div class="content-blocks">
          <h3>
           <ul class="contact-nav">
             <li>
@@ -185,8 +189,13 @@
           </ul>
 
             </h3>
+          </div>
 
           </div>
+
+        </div>
+
+      </div>
         
       </section>
     </main>

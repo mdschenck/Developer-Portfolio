@@ -92,33 +92,19 @@ header nav ul li {
 
 /* Main content blocks styling */
 
-.column {
-  float: left;
-}
-
 .leftAside {
   width: 25%;
+  float: left;
 }
 
 .right {
   width: 75%;
+  float: right;
 }
 
 .content {
   width: 75%;
-  display: inline-block;
-  margin-right: 20px;
-}
-
-.float-left {
-  float: left;
-  float: top;
-  margin-right: 25px;
-}
-
-.float-right {
-  float: right;
-  margin-left: 25px;
+  margin-left: 25%;
 }
 
 .float-center {
@@ -127,6 +113,7 @@ header nav ul li {
 }
 
 .aboutMe-block {
+  /* display: inline; */
   margin-bottom: 10px;
   padding: 20px;
   min-height: 250px;
@@ -134,14 +121,16 @@ header nav ul li {
   background-color: #e0dbdb;
   color: #0f1b19;
   width: 75%;
+  margin-left: 25%;
 }
 
 .aboutMe-block img {
+  position: relative;
   max-height: 200px;
 }
 
 .aboutMe-block h2 {
-  margin-bottom: 20px;
+  position: relative;
   font-size: 36px;
 }
 
@@ -153,31 +142,12 @@ header nav ul li {
   width: 50%;
 }
 
-.content-blocks {
-  margin-bottom: 10px;
-  padding: 20px;
-  min-height: 250px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  /* background-color: #15967c; */
-  color: #0f1b19;
-  width: 75%;
-}
-
-.content-blocks img {
-  max-height: 200px;
-}
-
-.content-blocks h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.content-blocks:hover {
+.aboutMe-block:hover {
   box-shadow: 2px 2px #67a9ad;
 }
 
 .contact-nav {
-  display: inline-block;
+  display: inline;
   padding-bottom: 15px;
   margin-right: 20px;
   /* float: right; */
