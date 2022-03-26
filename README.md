@@ -31,9 +31,13 @@ This project meets the acceptance criteria of:
 - When the user clicks on the image of the application, the browser opens a link to that application.
 - When the user resizes the page or views on a different device, they are presented with a responsive layout that adapts to the size of their viewport.
 
+**REVISION 1: 3/26/22:**
+
+** Based on feedback I have revised this project to address missing link to contents in Navigation Bar, added Media Query to make fully responsive design, and completely reworked the HTML and CSS to match the mock-up design from the assignment READ-ME.**
+
 Site screengrab to demonstrate visible appearance of the deployed web application:
 
-![Screenshot showing deployed website](assets/Images/PortfolioScreenshot.JPG)
+![Screenshot showing deployed website](assets/Images/PortfolioScreenshot2.JPG)
 
 ## Web design sites info:
 
@@ -47,11 +51,3 @@ TwoTwelveRecorders.com - Deployed 2014 to 2021, Platform & Hosting: WIX.com. GoD
 
 Hero Banner & Footer Artwork:
 Nam June Paik (Photo still taken by me in early 2000s), Smithsonian American Art Museum, Washington, DC.
-
-Clip Art sourced from www.flyclipart.com, specifically:
-
-https://flyclipart.com/download-png#github-png-transparent-github-images-813531.png
-
-https://flyclipart.com/download-png#white-email-icon-466284.png
-
-https://flyclipart.com/download-png#white-linkedin-icon-930912.png
