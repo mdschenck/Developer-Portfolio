@@ -3,166 +3,187 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Michael Schenck Developer Portfolio</title>
   </head>
 
   <!-- Site Header -->
-
-  <header class="header">
-    <h1>Michael <span class="sch">Sch</span>enck</h1>
-    <nav>
-      <ul>
-        <li>
-          <a href="#aboutme" class="navLink">About Me</a>
-        </li>
-        <li>
-          <a href="#work" class="navLink">Development</a>
-        </li>
-        <li>
-          <a href="#contact" class="navLink">Contact</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+  <div class="row headerRow">
+    <div class="col s12"></div>
+      <header class="header">
+        <h1>Michael <span class="sch">Sch</span>enck</h1>
+        <nav>
+          <ul>
+          <li>
+            <a href="#aboutme" class="navLink">About Me</a>
+          </li>
+          <li>
+            <a href="#work" class="navLink">Development</a>
+          </li>
+          <li>
+            <a href="#contact" class="navLink">Contact</a>
+          </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+  </div>
 
   <!-- Main Body Content -->
 
   <body>
     <main>
       <section>
-        <div class="hero">
-          <span
-            class="background-image"
-            role="img"
-            aria-label="Backround Image of computer graphics on a screen"
-          ></span>
-          <h2>Web Development Portfolio</h2>
+        <div class="row hero">
+          <div class="s12">
+            <span
+              class="background-image"
+              role="img"
+              aria-label="Backround Image of computer graphics on a screen"
+            ></span>
+            <h2>Web Development Portfolio</h2>
+          </div>
         </div>
-
-        <!-- About Me Info -->
-        <div id="mainContent" class="mainContentDiv">
-          <div>
-            <div class="leftAside" id="aboutme"><h2>About</h2></div>
-            <div class="right aboutMe-block">
-              <img
-                src="./assets/Images/ms-headshot.jpg"
-                alt="Image of Michael Schenck headshot"
-              />
-              <p>
-                Hi, thanks very much for visiting my page. I am a web
-                development student and designer based in Atlanta, Georgia
-                currently working in specialty food ecommerce Digital
-                Merchandising. I started building web pages back in 1997,
-                designing a page for a music project I was involved with. Over
-                the years, I've built sites for many businesses I've been
-                involved in, including multiple specialty food retailers,
-                recording studios, and record labels. I am currently a student
-                in the Georgia Tech Full Stack Web Development Bootcamp, and am
-                excited to share some of my projects here.
-              </p>
-            </div>
-          </div>
-
-          <!-- FEATURED PROJECT SECTION -->
-
-          <div>
-            <div class="leftAside" id="work"><h2>Work</h2></div>
-            <div class="right content-block featuredProjectContainer">
-              <a href="https://github.com/mdschenck" target="top">
+        <div class="container">
+          <!-- About Me Info -->
+          <div id="mainContent" class="mainContentDiv">
+            <div class="row">
+              <div class="col s3 left" id="aboutme"><h2 class="leftSideH2">About</h2></div>
+              <div class="col s9 right aboutMe-block">
                 <img
-                  src="./assets/Images/devproject1.jpg"
-                  class="float-center"
-                  alt="Image of dev project1"
-              /></a>
-              <h2>
-                <a href="https://github.com/mdschenck" target="top"
-                  ><span>Development Project 1</span></a
-                >
-              </h2>
-              <p><span>Placeholder</span></p>
-            </div>
-          </div>
-
-          <!-- MAIN PROJECTS SECTION -->
-          <div>
-            <aside class="leftAside">
-              <h2></h2>
-            </aside>
-            <div class="content-block right">
-              <div class="projectContainer right">
-                <img
-                  src="./assets/Images/turniptruckofga.jpg"
-                  alt="Image of Turnip Truck Website"
+                  src="./assets/Images/ms-headshot.jpg"
+                  alt="Image of Michael Schenck headshot"
                 />
-                <h2><span>Turnip Truck of Georgia</span></h2>
-                <p><span>Ecommerce Website</span></p>
+                <p>
+                  Hi, thanks very much for visiting. I am a full stack
+                  development student based in Atlanta, Georgia and working in
+                  specialty food ecommerce Digital Merchandising. I am currently
+                  a student in the Georgia Tech Full Stack Web Development
+                  Bootcamp, and I am very excited to share some of my projects
+                  here.
+                </p>
               </div>
-              <div class="projectContainer right">
+            </div>
+
+            <!-- FEATURED PROJECT SECTION -->
+
+            <div class="row">
+              <div class="col s3 left " id="work"><h2 class="leftSideH2">Work</h2></div>
+              <div class="col s9 right content-block featuredProjectContainer">
                 <a
-                  href="https://mdschenck.github.io/Code-Refactoring-Accessibility-Demo/"
+                  href="https://mdschenck.github.io/Wildlife-Census"
                   target="top"
                 >
                   <img
-                    src="./assets/Images/coderefactoring.jpg"
-                    alt="Image of Code Refactoring Project"
+                    src="./assets/Images/wildlifeCensus1.JPG"
+                    class="float-center"
+                    alt="Image of Wildlife Census Web Application"
                 /></a>
                 <h2>
                   <a
-                    href="https://mdschenck.github.io/Code-Refactoring-Accessibility-Demo/"
+                    href="https://mdschenck.github.io/Wildlife-Census"
                     target="top"
-                    ><span>Code Refactoring Project</span></a
+                    ><span>Endangered Wildlife Census</span></a
                   >
                 </h2>
-                <p><span>Code Refresh For Accessibility</span></p>
+                <p>
+                  <span
+                    >Mapping tool that shows population levels of endangered
+                    wildlife</span
+                  >
+                </p>
               </div>
             </div>
 
-            <div class="content-block right">
-              <div class="projectContainer right">
-                <img
-                  src="./assets/Images/twotwelverecorders.jpg"
-                  alt="Image of Two Twelve Recorders Website"
-                />
-                <h2><span>Two Twelve Recorders</span></h2>
-                <p><span>Business Website</span></p>
+            <!-- MAIN PROJECTS SECTION -->
+            <div class="row">
+              <div class="col s3 left">
+                <h2></h2>
               </div>
-              <div class="projectContainer right">
-                <img
-                  src="./assets/Images/mixedbymichael.jpg"
-                  alt="Image Of Mixed By Michael Website"
-                />
-                <h2><span>Mixed by Michael</span></h2>
-                <p><span>Music Player Website</span></p>
+              <div class="col s9 right content-block">
+                <div class="col s12 l6 projectContainer">
+                  <img
+                    src="./assets/Images/turniptruckofga.jpg"
+                    alt="Image of Turnip Truck Website"
+                  />
+                  <h2><span>Turnip Truck of Georgia</span></h2>
+                  <p><span>Ecommerce Website</span></p>
+                </div>
+                <div class="col s12 l6 projectContainer">
+                  <a
+                    href="https://mdschenck.github.io/Code-Refactoring-Accessibility-Demo/"
+                    target="top"
+                  >
+                    <img
+                      src="./assets/Images/coderefactoring.jpg"
+                      alt="Image of Code Refactoring Project"
+                  /></a>
+                  <h2>
+                    <a
+                      href="https://mdschenck.github.io/Code-Refactoring-Accessibility-Demo/"
+                      target="top"
+                      ><span>Code Refactoring Project</span></a
+                    >
+                  </h2>
+                  <p><span>Code Refresh For Accessibility</span></p>
+                </div>
+              </div>
+
+              <div class="col s9 content-block right">
+                <div class="col s12 l6 projectContainer">
+                  <img
+                    src="./assets/Images/twotwelverecorders.jpg"
+                    alt="Image of Two Twelve Recorders Website"
+                  />
+                  <h2><span>Two Twelve Recorders</span></h2>
+                  <p><span>Business Website</span></p>
+                </div>
+                <div class="col s12 l6 projectContainer">
+                  <img
+                    src="./assets/Images/mixedbymichael.jpg"
+                    alt="Image Of Mixed By Michael Website"
+                  />
+                  <h2><span>Mixed by Michael</span></h2>
+                  <p><span>Music Player Website</span></p>
+                </div>
               </div>
             </div>
-          </div>
 
-          <!-- CONTACT SECTION -->
+            <!-- CONTACT SECTION -->
 
-          <div>
-            <div class="leftAside" id="contact">
-              <h2>Contact</h2>
-            </div>
-            <div class="right">
-              <h3 class="contactLinks">
-                <a href="mailto:mdschenck@gmail.com"> mdschenck@gmail.com </a>
-                <a
-                  href="https://www.linkedin.com/in/michael-schenck-0026b3120"
-                  target="top"
-                >
-                  Linkedin
-                </a>
-                <a href="https://www.github.com/mdschenck" target="top">
-                  GitHub
-                </a>
-                <a
-                  href="./assets/files/MichaelSchenck-Resume2022.pdf"
-                  target="top"
-                >
-                  Resume
-                </a>
-              </h3>
+            <div class="row">
+              <div class="col s3 left  leftSide" id="contact">
+                <h2  class="leftSideH2">Contact</h2>
+              </div>
+              <div class="col s9 right">
+                <h3 class="contactLinks">
+                  <a href="mailto:mdschenck@gmail.com"> mdschenck@gmail.com </a>
+                  <a
+                    href="https://www.linkedin.com/in/michael-schenck-0026b3120"
+                    target="top"
+                  >
+                    Linkedin
+                  </a>
+                  <a href="https://www.github.com/mdschenck" target="top">
+                    GitHub
+                  </a>
+                  <a
+                    href="./assets/files/MichaelSchenck-Resume2022.pdf"
+                    target="top"
+                  >
+                    Resume
+                  </a>
+                </h3>
+              </div>
             </div>
           </div>
         </div>
@@ -172,8 +193,10 @@
     <!-- Site Footer -->
 
     <footer class="footer">
-      <h2>Made with ❤️️ by Michael Schenck</h2>
-      <p>&copy; 2021 Michael Schenck Industries</p>
+      <p>Made with ❤️️ &copy; 2021 Michael Schenck Industries</p>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   </body>
 </html>
