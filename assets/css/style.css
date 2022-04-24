@@ -100,6 +100,10 @@ header nav ul li {
   text-shadow: 2px 3px 2px #67a9ad;
 }
 
+#headshot {
+  height:150px;
+  margin-left: 45px;
+}
 /* Main content blocks styling */
 .mainContentDiv {
   display: inline;
