@@ -7,6 +7,9 @@ This portfolio is intented to provide prospective employers with a easy-to-navig
 Link to deployed web application:
 https://mdschenck.github.io/Developer-Portfolio/
 
+Link to current resume:
+https://mdschenck.github.io/Developer-Portfolio/assets/files/MichaelSchenck-Resume2022.pdf
+
 The USER STORY for this project is as follows:
 
 - AS A employer,
@@ -18,10 +21,6 @@ Given this user story, I strove to provide examples of my web development and de
 ## Useage
 
 This is a basic web application that functions to give information about my web development and design portfolio, and give prospective employers insight into my development and design skills. It can be accessed via any modern and legacy web browser.
-
-Link to completed project:
-
-https://mdschenck.github.io/Developer-Portfolio/
 
 This project meets the acceptance criteria of:
 
@@ -37,7 +36,7 @@ This project meets the acceptance criteria of:
 
 **REVISION 2: 04/24/22:**
 
-\*\* Updated to include five of my best projects to date, including this module's group project. I am very proud to have populated this portfoloio with functional web applications in such a short period of time, and am looking forward to updating this again in another few weeks with more. Projects added for this round include: Endangered Species Wildlife Census (Group Project), Weather Dashboard, Work-Day Scheduler, Code Quiz, and Random Password Generator.
+\*\* Updated to include five of my best projects to date, including this module's group project. I am very proud to have populated this portfolio with functional web applications in such a short period of time, and am looking forward to updating this again in another few weeks with more. Projects added for this round include: Endangered Species Wildlife Census (Group Project), Weather Dashboard, Work-Day Scheduler, Code Quiz, and Random Password Generator.
 
 Site screengrab to demonstrate visible appearance of the deployed web application:
 
