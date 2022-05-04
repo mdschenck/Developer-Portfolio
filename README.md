@@ -8,7 +8,7 @@ Link to deployed web application:
 https://mdschenck.github.io/Developer-Portfolio/
 
 Link to current resume:
-https://mdschenck.github.io/Developer-Portfolio/assets/files/MichaelSchenck-Resume2022.pdf
+https://mdschenck.github.io/Developer-Portfolio/assets/files/MIchaelSchenck-Resume2022.pdf
 
 The USER STORY for this project is as follows:
 
