@@ -38,6 +38,10 @@ This project meets the acceptance criteria of:
 
 \*\* Updated to include five of my best projects to date, including this module's group project. I am very proud to have populated this portfolio with functional web applications in such a short period of time, and am looking forward to updating this again in another few weeks with more. Projects added for this round include: Endangered Species Wildlife Census (Group Project), Weather Dashboard, Work-Day Scheduler, Code Quiz, and Random Password Generator.
 
+**REVISION 3: 06/23/22:**
+
+\*\* Updated to include project 2 The Prioritizer and the deployed Tech Blog to showcase the full stack development projects we have been working on in class and knowledge of Node.js, Express.js, MySQL, JAWS.db, Sequelize and Heroku deployment. Updated styling and fixed mobile responsive issues with title overlays.
+
 Site screengrab to demonstrate visible appearance of the deployed web application:
 
 ![Screenshot showing deployed website](assets/Images/PortfolioScreenshot2.JPG)
